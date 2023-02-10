@@ -1,5 +1,8 @@
 pipeline {
    agent any
+   tools {
+        maven 'maven'
+    }
 
    environment {
      // You must set the following environment variables
